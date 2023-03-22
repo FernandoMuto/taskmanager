@@ -14,7 +14,6 @@ public class TaskController {
     @GetMapping("/")
     public String index(Model model){
 
-          System.out.println("ERRRRO CODE SMELLS");
 
           logger.info("The page was loaded...");
 
