@@ -14,7 +14,7 @@ public class TaskController {
     @GetMapping("/")
     public String index(Model model){
 
-
+        System.out.println("Um erro propositado");
      logger.info("The page was loaded...");
 
         return "/home/index";
